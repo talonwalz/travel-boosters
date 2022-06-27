@@ -117,7 +117,7 @@ function Header() {
           <div className="flex md:hidden">
 
             {/* Hamburger button */}
-            <button
+            {/* <button
               ref={trigger}
               className={`hamburger ${mobileNavOpen && 'active'}`}
               aria-controls="mobile-nav"
@@ -130,10 +130,10 @@ function Header() {
                 <rect y="11" width="24" height="2" />
                 <rect y="18" width="24" height="2" />
               </svg>
-            </button>
+            </button> */}
 
             {/*Mobile navigation */}
-            <div ref={mobileNav}>
+            {/* <div ref={mobileNav}>
               <Transition
                 show={mobileNavOpen}
                 tag="nav"
@@ -186,7 +186,7 @@ function Header() {
                   </li>
                 </ul>
               </Transition>
-            </div>
+            </div> */}
 
           </div>
 
